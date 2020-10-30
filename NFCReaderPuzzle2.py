@@ -50,7 +50,7 @@ class Finestra(Gtk.Window):
 		thread.start()
 
 		#Ho mostrem tot
-		slef.show_all
+		slef.show_all()
 		Gtk.main()
 	
 	#Funció que es crida al polsar el botó
